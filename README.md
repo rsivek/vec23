@@ -76,7 +76,7 @@ console.log(vB === vA); //false
 console.log(vC === vA); //true
 ```
 
-For a complete list of methods, see the documentation.
+For a complete API, see the [documentation](http://nanowizard.github.io/vec23/).
 
 License
 ----
