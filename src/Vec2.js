@@ -51,7 +51,7 @@ Vec2.prototype = {
     /**
     * Adds the vector to a vector or Number.
     * @memberof Vec2#
-    * @param   {Vec3|Vec2|Number} v vector or Number to add with.
+    * @param   {Vec3|Vec2|Number} v vector or Number to add.
     * @returns {Vec2}                this vector
     */
     _add: function(v) {
@@ -123,7 +123,7 @@ Vec2.prototype = {
     /**
      * Multiplies a Number or vector to the vector and returns a new vector.
      * @memberof Vec2#
-     * @param   {Vec2|Vec3|Number} v
+     * @param   {Vec2|Vec3|Number} v vector or Number to multiply.
      * @returns {Vec2}
      */
     multiply: function(v) {
@@ -143,7 +143,7 @@ Vec2.prototype = {
     /**
     * Multiplies vector or Number to the vector.
     * @memberof Vec2#
-    * @param   {Vec3|Vec2|Number} v vector or Number to subtract.
+    * @param   {Vec3|Vec2|Number} v vector or Number to multiply.
     * @returns {Vec2}                this vector
     */
     _multiply: function(v) {
@@ -169,7 +169,7 @@ Vec2.prototype = {
     /**
      * Divides a Number or vector from the vector and returns a new vector.
      * @memberof Vec2#
-     * @param   {Vec2|Vec3|Number} v
+     * @param   {Vec2|Vec3|Number} v vector or Number to divide.
      * @returns {Vec2}
      */
     divide: function(v) {
@@ -189,7 +189,7 @@ Vec2.prototype = {
     /**
     * Divides a vector or Number from the vector.
     * @memberof Vec2#
-    * @param   {Vec3|Vec2|Number} v vector or Number to subtract.
+    * @param   {Vec3|Vec2|Number} v vector or Number to divide.
     * @returns {Vec2}                this vector
     */
     _divide: function(v) {

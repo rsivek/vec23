@@ -32,7 +32,7 @@ Vec3.prototype = {
     /**
     * Adds the vector to a vector or Number and returns a new vector.
     * @memberof Vec3#
-    * @param   {Vec3|Vec2|Number} v vector or Number to add with.
+    * @param   {Vec3|Vec2|Number} v vector or Number to add.
     * @returns {Vec3}                resulting vector
     */
     add: function(v) {
@@ -52,7 +52,7 @@ Vec3.prototype = {
     /**
     * Adds the vector to a vector or Number.
     * @memberof Vec3#
-    * @param   {Vec3|Vec2|Number} v vector or Number to add with.
+    * @param   {Vec3|Vec2|Number} v vector or Number to add.
     * @returns {Vec3}                this vector
     */
     _add: function(v) {
