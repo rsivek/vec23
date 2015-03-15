@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         },
         jsdoc: {
             options: {
-                destination: 'docs',
+                destination: '../vec23_docs',
                 template : 'node_modules/grunt-jsdoc/node_modules/ink-docstrap/template',
                 configure : 'jsdoc.conf.json'
             },

@@ -31,7 +31,7 @@ Vec2.prototype = {
     /**
      * Adds the vector to a vector or Number and returns a new vector.
      * @memberof Vec2#
-     * @param   {Vec2|Vec3|Number} v
+     * @param   {Vec2|Vec3|Number} v vector or Number to add.
      * @returns {Vec2}
      */
     add: function(v) {
