@@ -479,7 +479,7 @@ Vec3.prototype = {
     * @param {Number} k - rotation about the first axis.
     * @param {Number} p - rotation about the second axis.
     * @param {Number} o - rotation about the third axis.
-    * @param {String} order - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
+    * @param {String} [order='XYZ'] - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
     * @returns {Vec3}
     */
     rotate: function(k, p, o, order) {
@@ -534,7 +534,7 @@ Vec3.prototype = {
     * @param {Number} k - rotation about the first axis.
     * @param {Number} p - rotation about the second axis.
     * @param {Number} o - rotation about the third axis.
-    * @param {String} order - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
+    * @param {String} [order='XYZ'] - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
     * @returns {Vec3}
     */
     _rotate: function(k, p, o, order) {
