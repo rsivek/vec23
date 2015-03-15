@@ -482,7 +482,7 @@ Vec3.prototype = {
     * @param {String} order - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
     * @returns {Vec3}
     */
-    rotation: function(k, p, o, order) {
+    rotate: function(k, p, o, order) {
         order = order || Vec3.defaultRotationOrder;
         var cos = Math.cos;
         var sin = Math.sin;
@@ -537,7 +537,7 @@ Vec3.prototype = {
     * @param {String} order - case insensitive string representing the rotation order from left to right. Any permutation of 'XYZ' ('XZY', 'ZYX', etc.)
     * @returns {Vec3}
     */
-    _rotation: function(k, p, o, order) {
+    _rotate: function(k, p, o, order) {
         order = order || Vec3.defaultRotationOrder;
         var cos = Math.cos;
         var sin = Math.sin;
