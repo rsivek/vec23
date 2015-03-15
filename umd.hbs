@@ -1,0 +1,16 @@
+(function (root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define({{#if amdModuleId}}'{{amdModuleId}}', {{/if}}['exports'], factory);
+  } else if (typeof exports === 'object') {
+    factory(exports);
+  } else {
+    factory({{#if globalAlias}}(root['{{globalAlias}}'] = {}){{else}}root{{/if}});
+  }
+}(this, function (root) {
+
+{{{code}}}
+
+root.Vec2 = Vec2;
+root.Vec3 = Vec3;
+
+}));

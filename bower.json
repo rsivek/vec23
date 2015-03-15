@@ -1,0 +1,27 @@
+{
+  "name": "vec23",
+  "version": "0.1.0",
+  "authors": [
+    "Ryan Sivek <nanowizardry@gmail.com>"
+  ],
+  "description": "A simple 2D and 3D Vector library for JavaScript",
+  "main": "dist/vec23.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "vector",
+    "math",
+    "physics"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
