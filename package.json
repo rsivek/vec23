@@ -2,7 +2,7 @@
   "name": "vec23",
   "version": "0.1.0",
   "description": "A simple 2D and 3D Vector Library for JavaScript.",
-  "repository": "https://github.com/nanowizard/vec23",
+  "repository": "https://github.com/rsivek/vec23",
   "main": "dist/vec23.js",
   "scripts": {
     "test": "grunt jasmine:dist"
